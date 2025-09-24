@@ -48,7 +48,7 @@ The project follows a **four-step execution order**:
 ```bash
 python logs.py
 ```
-- Downloads and extracts raw logs (dataset source: [LogPai GitHub](https://github.com/logpai))
+- Downloads and extracts raw logs (dataset source: [LogPai GitHub](https://github.com/logpai/loghub))
 - Creates `logs_*` tables in SQLite (`logs.db`)
 - Populates tables with raw simulation logs
 
@@ -103,7 +103,7 @@ python -m streamlit run dash.py
 
 ## 📌 Dataset
 
-- The log dataset is sourced from the [**LogPai repository**](https://github.com/logpai).  
+- The log dataset is sourced from the (dataset source: [LogPai GitHub](https://github.com/logpai/loghub)).  
 - Used as raw input for `logs.py` during ingestion.  
 
 ---
